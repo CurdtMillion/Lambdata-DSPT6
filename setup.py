@@ -1,9 +1,9 @@
-import setuptools
+from setuptools import find_packages, setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="U3M1_CurdtMillion", # Replace with your own username
     version="2.0",
     author="Curtis Cecil",
