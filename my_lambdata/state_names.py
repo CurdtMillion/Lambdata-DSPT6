@@ -1,26 +1,25 @@
-
 from pandas import DataFrame
 
-class DataProcessor():
-    def __init__(self, something_else):
-        '''
-        Params: something_else (pandas.DataFrame) has a column cal
-        '''
-        self.df = something_else
+# State abbreviation -> Full Name and visa versa. FL -> Florida, etc.
+# (Handle Washington DC and territories like Puerto Rico etc.)
 
-    def add_state_names(self):
-        '''
-        Adds a column of state names to accompany a corresponding column of abbrev
-        '''
-    names_map = {'CA': 'Cali', 'CO': 'Colo', 'CT': 'Conn'}
-    self.df['name'] = self.df['abbrev'].map(names_map)
 
-if __name__ == '__main__':
+def add_state_names(my_df):
+    new_df = my_df.copy()
+    names_map = {"CA": "Cali", "CO": "Colo", "CT": "Conn"}
+    new_df["name"] = new_df["abbrev"].map(names_map)
+    breakpoint()
 
-    df = DataFrame({'abbrev': ['CA', 'CO', 'CT', 'DC', 'TX']})
+    return my_df
 
-    processor = DataProcessor(df)
-    print(processor.df.head())
 
-    processor.add_state_names()
-    print(processor.df.head())
+if __name__ == "__main__":
+    df = DataFrame({"abbrev": ["CA", "CO", "CT", "DC", "TX"]})
+    print(df.head())
+
+    df2 = add_state_names(df)
+    print(df2.head())
+
+    df3 = DataFrame({"abbrev":["CA", "CO", "CT", "DC", "TX"]})
+    print(df3.head())
+    
