@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="First_Modules_CurdtMillion", # Replace with your own username
+    name="U3M1_CurdtMillion", # Replace with your own username
     version="2.0",
     author="Curtis Cecil",
     author_email="curtcecil@gmail.com",
