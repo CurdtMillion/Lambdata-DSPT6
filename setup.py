@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="U3M1_CurdtMillion", # Replace with your own username
-    version="2.1",
+    version="2.2",
     author="Curtis Cecil",
     author_email="curtcecil@gmail.com",
     description="A small example package",
