@@ -10,8 +10,8 @@ def decimate(n):    # Decreases by 10%
 def checknan(df):   # Checks for NaNs
     print(df.isnull())
 
-# def splitdate():
-
+# def addrow(df):
+    #print(df.loc[-1] = np.random.randint(1, 10, size=len(df)))
 
 if __name__ == "__main__":
     
