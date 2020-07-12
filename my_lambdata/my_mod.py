@@ -24,13 +24,14 @@ def checknan(df):   # Checks for NaNs
     '''
     print(df.isnull())
 
+
 def addrow(df):
     '''
     Creates a new row in the previously
     made DataFrame containing the
     numbers 4 and 7
     '''
-    new_row = {'a':4, 'b':7}
+    new_row = {'a': 4, 'b': 7}
     print(df.append(new_row, ignore_index=True))
 
 if __name__ == "__main__":
