@@ -25,7 +25,9 @@ def checknan(df):   # Checks for NaNs
     print(df.isnull())
 
 #  def addrow(df):
-#   return(df.loc[-1] = np.random.randint(1, 6, df.shape[0])
+#   df.loc[-1] = np.random.randint(1, 6, df.shape[0])
+#   df.index = df.index + 1
+#   df = df.sort_index()
 #   print(df)
 
 if __name__ == "__main__":
