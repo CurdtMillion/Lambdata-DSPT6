@@ -24,11 +24,10 @@ def checknan(df):   # Checks for NaNs
     '''
     print(df.isnull())
 
-#  def addrow(df):
-#   df.loc[-1] = np.random.randint(1, 6, df.shape[0])
-#   df.index = df.index + 1
-#   df = df.sort_index()
-#   print(df)
+def addrow(df):
+    new_row = {'a':4, 'b':7}
+    df = df.append(new_row, ignore_index=True)
+    print(df)
 
 if __name__ == "__main__":
 

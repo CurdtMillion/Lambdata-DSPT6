@@ -6,14 +6,15 @@ from pandas import DataFrame
 from my_lambdata.my_mod import enlarge
 from my_lambdata.my_mod import decimate
 from my_lambdata.my_mod import checknan
+from my_lambdata.my_mod import addrow
 
 print("HELLO")
 
 df = DataFrame({"a": [1, 2, 3], "b": [4, 5, 6]})
 print(df.head())
 
-# df = df(addrow) <--- An attempt to try my addrow function
-# print(df.head())
+df2 = addrow(df) # <--- An attempt to try my addrow function
+print(df2)
 
 x = 11
 print(enlarge(x))
