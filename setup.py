@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="U3M1_CurdtMillion", # Replace with your own username
-    version="2.2",
+    name="U3M1_CurdtMillion", 
+    version="2.3",
     author="Curtis Cecil",
     author_email="curtcecil@gmail.com",
-    description="A small example package",
+    description="A small example package, v2.3 has PEP8",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/CurdtMillion/Lambdata-DSPT6",

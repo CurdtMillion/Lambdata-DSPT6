@@ -1,4 +1,5 @@
-# my_script.py
+# my_script.py a test script to see if importing
+# modules was possible.
 
 import numpy as np
 from pandas import DataFrame
@@ -11,8 +12,8 @@ print("HELLO")
 df = DataFrame({"a": [1, 2, 3], "b": [4, 5, 6]})
 print(df.head())
 
-#df = df(addrow)
-#print(df.head())
+# df = df(addrow) <--- An attempt to try my addrow function
+# print(df.head())
 
 x = 11
 print(enlarge(x))
