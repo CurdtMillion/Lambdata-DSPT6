@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="U3M1_CurdtMillion", 
-    version="2.5.1",
+    version="2.5.2",
     author="Curtis Cecil",
     author_email="curtcecil@gmail.com",
     description="A small example package, v2.5.1 all funcs can be imported! README updtd",
