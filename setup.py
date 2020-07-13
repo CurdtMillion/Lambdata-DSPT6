@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="U3M1_CurdtMillion", 
-    version="2.5.2",
+    version="2.6",
     author="Curtis Cecil",
     author_email="curtcecil@gmail.com",
-    description="A small example package, v2.5.1 all funcs can be imported! README updtd",
+    description="A small example package, v2.6 all funcs can be imported! README updtd",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/CurdtMillion/Lambdata-DSPT6",
