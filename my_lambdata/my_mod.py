@@ -1,7 +1,9 @@
 # my_mod.py 3 modules created by CurdtMillion
+import padas as pd
+import numpy as np
 
 
-def enlarge(n):  # Multiplies by 100
+def enlarge(n):
     '''
     Created in class, this multiplies
     a number given by 100.
@@ -9,14 +11,14 @@ def enlarge(n):  # Multiplies by 100
     return n * 100
 
 
-def decimate(n):    # Decreases by 10%
+def decimate(n):
     '''
     Decemates a given number
     '''
     return n - (n * .1)
 
 
-def checknan(df):   # Checks for NaNs
+def checknan(df):
     '''
     Checks if a given DataFrame contains
     NaN values. Will print the DataFrame
@@ -78,7 +80,7 @@ class My_Data_Splitter():
         print(f'X_test Shape: {X_test.shape}')
         display(X_test.describe(include='all').transpose())
         print('')
-Collapse
+
 
 if __name__ == "__main__":
 
