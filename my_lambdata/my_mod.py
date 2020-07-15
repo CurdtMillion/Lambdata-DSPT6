@@ -13,7 +13,7 @@ def enlarge(n):
 
 def decimate(n):
     '''
-    Decemates a given number
+    Decimates a given number
     '''
     return n - (n * .1)
 
