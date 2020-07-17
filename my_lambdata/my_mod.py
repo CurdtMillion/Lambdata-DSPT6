@@ -1,5 +1,5 @@
 # my_mod.py 3 modules created by CurdtMillion
-import padas as pd
+import pandas as pd
 import numpy as np
 
 
