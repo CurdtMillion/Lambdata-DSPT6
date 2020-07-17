@@ -20,6 +20,5 @@ if __name__ == "__main__":
     df2 = add_state_names(df)
     print(df2.head())
 
-    df3 = DataFrame({"abbrev":["CA", "CO", "CT", "DC", "TX"]})
+    df3 = DataFrame({"abbrev": ["CA", "CO", "CT", "DC", "TX"]})
     print(df3.head())
-    
